@@ -12,12 +12,15 @@ The primary goal of Phase 2 is to translate a structured **Candidate Intelligenc
 - **Tone Alignment**: Supports 4 unique communication styles (`Professional`, `Recruiter`, `Concise`, and `Technical`).
 
 ---
-
+---
 ### Run Command
-```
-python batch_process.py     --input_file ./data/input_candidates.csv     --output_file ./outputs/reasoning_report.xlsx
-```
 
+```
+python batch_process.py
+--input_file ./data/input_candidates.csv
+--output_file ./outputs/reasoning_report.xlsx
+```
+---
 ## Folder Structure
 
 ```
