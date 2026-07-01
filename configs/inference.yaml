@@ -1,0 +1,19 @@
+# Inference Engine and Validator Configuration
+
+device: "cpu"                  # Default target device: "cpu" or "cuda"
+offline: true                  # Enforces local_files_only loading
+
+generation:
+  max_new_tokens: 512
+  temperature: 0.2
+  top_p: 0.9
+  do_sample: true
+  repetition_penalty: 1.15
+  pad_token_id: 151643
+
+validation:
+  strict_skills_match: true
+  strict_number_match: true
+  forbid_unsupported_companies: true
+  forbid_unsupported_metrics: true
+  allowed_skills: []

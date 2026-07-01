@@ -1,0 +1,19 @@
+# Dataset Generation and Splitting Configuration
+
+generation:
+  num_samples: 10000
+  output_dir: "./data/synthetic"
+  styles:
+    - "Professional"
+    - "Recruiter"
+    - "Concise"
+    - "Technical"
+  seed: 42
+
+splits:
+  train_ratio: 0.8
+  validation_ratio: 0.1
+  test_ratio: 0.1
+  train_path: "./data/train.jsonl"
+  validation_path: "./data/validation.jsonl"
+  test_path: "./data/test.jsonl"
