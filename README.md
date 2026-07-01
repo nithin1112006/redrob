@@ -14,8 +14,9 @@ The primary goal of Phase 2 is to translate a structured **Candidate Intelligenc
 ---
 
 ### Run Command
-
+```
 python batch_process.py     --input_file ./data/input_candidates.csv     --output_file ./outputs/reasoning_report.xlsx
+```
 
 ## Folder Structure
 
